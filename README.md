@@ -72,8 +72,8 @@ Unlike traditional to-do list applications, this system evaluates task urgency a
 2. Download or clone this repository  
 3. Open the project folder  
 4. Run the application using the command:
-bash
-python app.py
+```bash
+   python app.py
 
 ---
 
