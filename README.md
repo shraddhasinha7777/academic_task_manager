@@ -46,8 +46,7 @@ Unlike traditional to-do list applications, this system evaluates task urgency a
 ---
 
 ## Project Structure
-Academic-Task-Manager/
-Academic-Task-Manager/
+```Academic-Task-Manager/
 ├── app.py           # Main application file (Handles GUI, task logic, dashboard, and user interactions)
 ├── models.py        # Task & Course entities (Implements Object-Oriented Programming concepts)
 ├── database.py      # Manages SQLite database (Handles CRUD create, read, update, and delete operations)
@@ -66,5 +65,6 @@ Academic-Task-Manager/
 python app.py
 
 ---
+
 
 Author: Shraddha (BCA Student)
