@@ -47,11 +47,23 @@ Unlike traditional to-do list applications, this system evaluates task urgency a
 
 ## Project Structure
 ```Academic-Task-Manager/
-├── app.py           # Main application file (Handles GUI, task logic, dashboard, and user interactions)
-├── models.py        # Task & Course entities (Implements Object-Oriented Programming concepts)
-├── database.py      # Manages SQLite database (Handles CRUD create, read, update, and delete operations)
-├── README.md        # Project Documentation & Guide
-└── .gitattributes   # Git configuration file (Auto-generated)
+│
+├── app.py
+│ Main application file
+│ Handles GUI, task logic, dashboard, and user interactions
+│
+├── models.py
+│ Contains Task and Course classes
+│ Implements Object-Oriented Programming concepts
+│
+├── database.py
+│ Manages SQLite database
+│ Handles create, read, update, and delete operations
+│
+└── README.md
+|   Project documentation & Guide
+└── .gitattributes
+|   Git configuration file (Auto-generated)
 
 ---
 
@@ -60,8 +72,7 @@ Unlike traditional to-do list applications, this system evaluates task urgency a
 2. Download or clone this repository  
 3. Open the project folder  
 4. Run the application using the command:
-
-```bash
+bash
 python app.py
 
 ---
