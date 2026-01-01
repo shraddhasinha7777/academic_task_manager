@@ -4,11 +4,12 @@
 ---
 
 ## Project Overview
-Academic Task Manager is a desktop-based task management application developed using Python.
+**Academic Task Manager is a desktop-based task management application developed using Python.
 It is designed to help students and individuals organize academic tasks efficiently, prioritize work intelligently, and reduce decision fatigue.
 
-The application uses a rule-based smart priority system to highlight urgent and important tasks, making daily planning easier and more effective.  
+**The application uses a rule-based smart priority system to highlight urgent and important tasks, making daily planning easier and more effective.  
 Unlike traditional to-do list applications, this system evaluates task urgency and importance to guide users toward the most important work first, improving focus, productivity, and time management.
+****
 ---
 
 ## Key Features
