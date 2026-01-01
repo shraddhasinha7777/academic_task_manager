@@ -8,8 +8,7 @@ Academic Task Manager is a smart desktop-based task management application devel
 It is designed to help students and individuals organize tasks efficiently, prioritize work intelligently, and reduce academic decision fatigue.
 
 The application uses a rule-based smart priority system to highlight urgent and important tasks, making daily planning easier and more effective.  
-Unlike traditional to-do list applications, this system evaluates task urgency and importance to guide users toward the most critical tasks first, helping improve focus and productivity.
-
+Unlike traditional to-do list applications, this system evaluates task urgency and importance to guide users toward the most important work first, improving focus, productivity, and time management.
 ---
 
 ## Key Features
