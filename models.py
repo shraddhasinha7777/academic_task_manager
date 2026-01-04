@@ -28,7 +28,7 @@ class Task:
             due = datetime.datetime.strptime(str(self.due_date), "%Y-%m-%d").date()
             today = datetime.date.today()
             return (due - today).days
-        except:
+        except Exception:
             # If date format is wrong, return 0
             return 0
 
@@ -56,5 +56,5 @@ class Task:
             # Final smart score
             score = (urgency * 0.7) + (importance * 0.3)
             return int(score)
-        except:
+        except Exception:
             return 0
