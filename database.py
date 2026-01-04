@@ -1,4 +1,5 @@
 import sqlite3
+
 # Database file for Academic Task Manager
 # Handles all database operations using SQLite
 class DatabaseManager:
@@ -38,11 +39,9 @@ class DatabaseManager:
                 (course_obj.name, course_obj.code)
             )
             self.conn.commit()
-        except:
-            # Ignore duplicate category entry
-            pass
+        except Exception:
+            pass   # Ignore duplicate category entry
 
-    # Remove category and all related tasks
     def delete_course(self, course_code):
         self.cursor.execute(
             "DELETE FROM tasks WHERE category = ?",
@@ -54,7 +53,6 @@ class DatabaseManager:
         )
         self.conn.commit()
 
-    # Add new task to database
     def add_task(self, title, due, prio, cat, cid):
         self.cursor.execute(
             "INSERT INTO tasks (title, due_date, priority, category, course_id) VALUES (?, ?, ?, ?, ?)",
@@ -62,7 +60,6 @@ class DatabaseManager:
         )
         self.conn.commit()
 
-    # Update task details
     def update_task_details(self, tid, title, due, prio):
         self.cursor.execute(
             "UPDATE tasks SET title = ?, due_date = ?, priority = ? WHERE task_id = ?",
@@ -70,7 +67,6 @@ class DatabaseManager:
         )
         self.conn.commit()
 
-    # Mark task as completed
     def mark_done(self, tid):
         self.cursor.execute(
             "UPDATE tasks SET status = 'Done' WHERE task_id = ?",
@@ -78,7 +74,6 @@ class DatabaseManager:
         )
         self.conn.commit()
 
-    # Delete task from database
     def delete_task(self, tid):
         self.cursor.execute(
             "DELETE FROM tasks WHERE task_id = ?",
@@ -86,7 +81,6 @@ class DatabaseManager:
         )
         self.conn.commit()
 
-    # Fetch all tasks (pending and completed)
     def get_tasks(self):
         return self.cursor.execute("""
             SELECT
