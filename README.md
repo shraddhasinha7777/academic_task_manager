@@ -35,7 +35,7 @@ This project is developed as a BCA Minor Project to demonstrate practical implem
 - **Local Data Storage**  
   All tasks and categories are stored securely using a local SQLite database.
   
-  Screenshots of the working application are provided in the final project report.
+  **Screenshots of the working application are provided in the final project report.**
   
 <img width="1914" height="1018" alt="image" src="https://github.com/user-attachments/assets/4cd9abec-e21d-49aa-8b7f-633998807a6d" />
 <img width="1432" height="522" alt="image" src="https://github.com/user-attachments/assets/3441f6cf-6347-4cb6-937b-04dc25b3d220" />
