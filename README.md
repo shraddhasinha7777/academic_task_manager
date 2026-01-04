@@ -4,11 +4,12 @@
 ---
 
 ## Project Overview
-**Academic Task Manager is a desktop-based task management application developed using Python.
+**Academic Task Manager is a desktop-based task management application developed using Python.**
 It is designed to help students and individuals organize academic tasks efficiently, prioritize work intelligently, and reduce decision fatigue.
 
 **The application uses a rule-based smart priority system to highlight urgent and important tasks, making daily planning easier and more effective.  
 Unlike traditional to-do list applications, this system evaluates task urgency and importance to guide users toward the most important work first, improving focus, productivity, and time management.
+This project is developed as a BCA Minor Project to demonstrate practical implementation of Object-Oriented Programming, GUI development, and database management.
 ****
 ---
 
@@ -33,7 +34,13 @@ Unlike traditional to-do list applications, this system evaluates task urgency a
 
 - **Local Data Storage**  
   All tasks and categories are stored securely using a local SQLite database.
-
+  Screenshots of the working application are provided in the final project report.
+<img width="1914" height="1018" alt="image" src="https://github.com/user-attachments/assets/4cd9abec-e21d-49aa-8b7f-633998807a6d" />
+<img width="1432" height="522" alt="image" src="https://github.com/user-attachments/assets/3441f6cf-6347-4cb6-937b-04dc25b3d220" />
+<img width="1192" height="619" alt="image" src="https://github.com/user-attachments/assets/c4edf85b-7ab4-49ff-8385-29099d04472e" />
+<img width="1415" height="376" alt="image" src="https://github.com/user-attachments/assets/d9931361-7695-4b62-b81e-9e713a2773ee" />
+<img width="1421" height="615" alt="image" src="https://github.com/user-attachments/assets/ce62e23e-4761-4441-8ba4-ec8e1cec47ac" />
+<img width="412" height="417" alt="image" src="https://github.com/user-attachments/assets/ea5febea-07b5-44f9-9644-37f3705182b9" />
 ---
 
 ## Technologies Used
