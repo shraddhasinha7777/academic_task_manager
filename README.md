@@ -9,7 +9,7 @@ It is designed to help students and individuals organize academic tasks efficien
 
 **The application uses a rule-based smart priority system to highlight urgent and important tasks, making daily planning easier and more effective.  
 Unlike traditional to-do list applications, this system evaluates task urgency and importance to guide users toward the most important work first, improving focus, productivity, and time management.
-**
+****
 ---
 
 ## Key Features
